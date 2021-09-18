@@ -11,7 +11,8 @@ Zuri Chat is an open source slack clone. However, it offers a lot more functiona
 # Authentication
 The Authentication API enables you to manage all aspects of user identity when you use Auth. It offers endpoints so your users can log in, log out, access APIs, and more.
 
-## **BearerAuth**
+## Authorization
+### **BearerAuth**
 The authorization token for this account. It's gives access to the bearer. This token should be kept a secret, so no sharing. Its expires in 24hours.
 
 |  |  |
@@ -19,7 +20,7 @@ The authorization token for this account. It's gives access to the bearer. This 
 | Security Scheme Type | HTTP |
 | HTTP Authorization Scheme | bearer|
 |  |  |
-## **CookieAuth**
+### **CookieAuth**
 It authorizes clients request and maintains session information. Its expires in 24hours.
 
 |  |  |
